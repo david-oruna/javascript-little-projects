@@ -1,0 +1,25 @@
+.container {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.btn {
+    background-color: black;
+    font-size: 3em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color font-size .25s;
+}
+
+.btn:hover{
+    background-color: grey;
+    font-size: 4em;
+}
+
+#counter {
+    font-size: 200px;
+}

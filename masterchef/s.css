@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(255, 238, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+    
+}
+
+.mainBtn {
+    font-size: 1.3em;
+    background-color: goldenrod;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: transform ease .25s;
+    cursor: pointer;
+}
+
+
+.mainBtn:hover {
+    transform: scale(1.1);
+}
+
+.mainBtn.active {
+    transform: scale(1)
+
+}

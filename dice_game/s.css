@@ -1,0 +1,16 @@
+#container {
+    text-align: center;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dice {
+    font-size: 6em;
+    transition: font-size .25s;
+    border-radius: 10px;
+}
+
+#dice:hover{
+    font-size: 8em;
+}
+

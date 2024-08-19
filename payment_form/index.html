@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css"> 
+</head>
+<body>
+    <div id="container"> 
+    <h4>Select payment method</h4>
+    <div id="listRadio">
+    <input type="radio" id="visa" name="pay">
+    <label for="visa">Visa</label> 
+   
+    <br><br>
+    <input type="radio" id="master" name="pay">
+    <label for="master">Mastercard</label>
+ 
+    <br><br>
+    <input type="radio" id="paypal" name="pay">
+    <label for="paypal">Paypal</label>
+    <br><br>
+</div>
+    <div id="imgList">
+    <img class="img" src="visa.png" >
+    <img class="img" src="master.png">
+    <img class="img" src="paypal.png">
+</div>
+    
+    <div id="form">
+        <h4 id = "cardText"></h4>
+        <div id ="cardForm">
+            
+            <input id="inputNumber" type="text" placeholder="Card number" minlength="16" maxlength="16">
+            <input id="inputDate" type="input" placeholder="Date (DD/MM/YYYY)" maxlength="12"> 
+            <input id="inputCVC" type="text" maxlength="3" minlength="3" placeholder="CVC"  pattern="\d{3}"  >
+        </div>
+        <div id ="paypalForm">
+            <input id="inputEmail" type="text" placeholder="Email">
+            <input type="password" id="inputPassword" placeholder="Password"> 
+        </div>
+        <button id="continue">Continue</button>
+        <p id="warn"></p>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+body {
+    background-image: url("zoltan-tasi-9LEogrMVMwY-unsplash.jpg");
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+  
+    background-color: rgba(91, 82, 63, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow:  0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+
+.btnSelect {
+    font-weight:bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3em;
+    transition: background-color ease, color .25s ease-in-out, transform .3s ease-in-out;
+
+}
+
+.btnSelect:hover {
+    background-color: rgb(67, 67, 67);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.btnSelect.active {
+    background-color: rgb(67, 67, 67);
+    color: whitesmoke;
+    transform: scale(1)
+
+    
+}
+
+
+#btnContainer {
+    display: flex;
+    gap: 100px;
+}
+
+#mainTitle {
+    font-weight: bold;
+    color: rgb(222, 191, 97);
+}
+
+
+#inputF {
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+#btnConvert {
+    background-color: rgb(222, 191, 97);
+    color: black;
+}
+
